@@ -1,0 +1,56 @@
+html{
+    font-size: 16px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.instaicon{
+    max-height: 3rem;
+    margin-left: auto;
+}
+
+.pickleicon{
+    max-height: 3rem;
+    padding: 0 0.5rem;
+}
+
+.levelone{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 .5rem;
+    background-color: #A1332B;
+    max-height: 4rem;
+    border-bottom: solid 1px #F5C63C;
+    margin: 0;
+}
+
+header p{
+    display:flex;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.menu{
+    background-color: #A1332B;
+    margin: 0;
+    border-top:solid 1px #F5C63C;
+
+}
+
+.menu ul{
+    display:flex;
+    justify-content: space-around;
+    color: #F5C63C;
+    align-items: center;
+
+
+
+}
+
+.header li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 1rem;
+    font-size: 2rem;
+
+}
