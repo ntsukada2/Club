@@ -1,8 +1,15 @@
+/*General Styles*/
 html{
     font-size: 16px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
+p{
+    font-family:'Slabo 27px', serif;
+}
+
+
+/*header*/
 .instaicon{
     max-height: 3rem;
     margin-left: auto;
@@ -24,10 +31,11 @@ html{
     margin: 0;
 }
 
-header p{
+header h2{
     display:flex;
     font-size: 2.5rem;
     color: white;
+    letter-spacing: 0.125rem;
 }
 
 .menu{
@@ -52,6 +60,8 @@ header p{
     font-size: 2rem;
 }
 
+/*Banner*/
+
 .banner{
     background-image: url("./picklebanner.webp");
     background-size: cover;
@@ -60,7 +70,6 @@ header p{
     justify-content: center;
     align-items: center;
     min-height:35rem;
-
 }
 
 .banner h1{
@@ -70,4 +79,32 @@ header p{
     background-color:#A1332B;
     width: 100%;
     text-align:center;
+}
+
+/*About Section*/
+
+.blurb{
+    background-color: #F5C63C;
+    border: solid 1px #F5C63C;
+    padding-left: 2rem;
+    color:#A1332B;
+}
+.blurb h2{
+    font-size: 2.5rem;
+    letter-spacing: 0.175rem;
+}
+
+.blurb p{
+    font-size: 1.5rem;
+}
+
+.images{
+    display:flex;
+    justify-content: space-between;
+}
+
+.example{
+    max-height: 15rem;
+    border-top:solid 2px #A1332B;
+    border-bottom:solid 2px #A1332B
 }
