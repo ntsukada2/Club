@@ -58,6 +58,7 @@ header h2{
     list-style: none;
     padding: 0 1rem;
     font-size: 2rem;
+    
 }
 
 /*Banner*/
@@ -92,6 +93,7 @@ header h2{
 .blurb h2{
     font-size: 2.5rem;
     letter-spacing: 0.175rem;
+    text-shadow: 2px 2px white;
 }
 
 .blurb p{
@@ -101,10 +103,48 @@ header h2{
 .images{
     display:flex;
     justify-content: space-between;
+    background-color: #A1332B;
 }
 
 .example{
     max-height: 15rem;
-    border-top:solid 2px #A1332B;
-    border-bottom:solid 2px #A1332B
+    border:solid 2px #A1332B;
+}
+
+/* Chapters/locations */
+
+.locations {
+    text-align: center;
+    background-color: #F5C63C;
+    border: solid 1px #F5C63C;
+    padding-bottom: 2rem;
+}
+
+.locations h2{
+    color:#A1332B;
+    font-size: 2.25rem;
+    text-shadow: 2px 2px white;
+}
+
+.neighborhoods{
+    display:flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.neighborhood-card{
+    background-color: #A1332B;
+    color:white;
+    padding: 0 1rem;
+    max-width: 8rem;
+    box-shadow: 10px 10px white;
+}
+
+.neighborhood-card h3{
+    letter-spacing: 0.125rem;
+    font-size:1.5rem;
+}
+.neighborhood-card p{
+    font-size:1.15rem;
+    line-height: 2.5rem;
 }
