@@ -61,6 +61,22 @@ header h2{
     
 }
 
+@media only screen and (max-width: 760px){
+    .header li{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .header li{
+        display:none;
+    }
+    header h2{
+        display: none;
+    }
+}
+
+
 /*Banner*/
 
 .banner{
@@ -77,10 +93,11 @@ header h2{
     color: white;
     font-size: 4rem;
     letter-spacing: 0.25rem;
-    background-color:#A1332B;
+    text-shadow: 4px 4px #A1332B;
     width: 100%;
     text-align:center;
 }
+
 
 /*About Section*/
 
@@ -102,14 +119,31 @@ header h2{
 
 .images{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap:wrap;
     background-color: #A1332B;
+    padding: 4rem 0;
 }
 
 .example{
-    max-height: 15rem;
-    border:solid 2px #A1332B;
+    width: 35rem;
+    padding: 1rem;
 }
+
+@media only screen and (max-width: 1220px){
+    .example{
+        border: transparent;
+
+        width: 100%;
+        padding: 0;
+    }
+
+    .images{
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
 
 /* Chapters/locations */
 
@@ -130,6 +164,7 @@ header h2{
     display:flex;
     justify-content: center;
     column-gap: 3rem;
+    flex-wrap:wrap;
 }
 
 .neighborhood-card{
@@ -138,6 +173,7 @@ header h2{
     padding: 0 1rem;
     max-width: 8rem;
     box-shadow: 10px 10px white;
+    margin-top: 1rem;
 }
 
 .neighborhood-card h3{
@@ -147,4 +183,31 @@ header h2{
 .neighborhood-card p{
     font-size:1.15rem;
     line-height: 2.5rem;
+}
+
+
+
+/*Contact Section*/
+
+.contact{
+    background-color:#A1332B;
+    border-top: solid 1px #A1332B;
+    color:white;
+    padding: 1rem 2rem;
+}
+
+.contact h4{
+    font-size: 1.5rem;
+    letter-spacing: 0.125rem;
+    margin: 0;
+}
+
+/* Copy section */
+
+.copyright{
+    margin: 0;
+    color: #A1332B;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+    text-align: right;
 }
